@@ -832,7 +832,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: URP_OUTLINE
+    Android: URP_OUTLINE;USE_INPUT_SYSTEM_POSE_CONTROL
     CloudRendering: URP_OUTLINE;EPO_DOTWEEN
     EmbeddedLinux: URP_OUTLINE;EPO_DOTWEEN
     GameCoreScarlett: URP_OUTLINE;EPO_DOTWEEN
@@ -842,9 +842,9 @@ PlayerSettings:
     PS4: URP_OUTLINE;EPO_DOTWEEN
     PS5: URP_OUTLINE;EPO_DOTWEEN
     Stadia: URP_OUTLINE;EPO_DOTWEEN
-    Standalone: URP_OUTLINE;EPO_DOTWEEN
+    Standalone: URP_OUTLINE;EPO_DOTWEEN;USE_INPUT_SYSTEM_POSE_CONTROL
     WebGL: URP_OUTLINE;EPO_DOTWEEN
-    Windows Store Apps: URP_OUTLINE;EPO_DOTWEEN
+    Windows Store Apps: URP_OUTLINE;EPO_DOTWEEN;USE_INPUT_SYSTEM_POSE_CONTROL
     XboxOne: URP_OUTLINE;EPO_DOTWEEN
     iPhone: URP_OUTLINE;EPO_DOTWEEN
     tvOS: URP_OUTLINE;EPO_DOTWEEN
@@ -953,7 +953,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
